@@ -19,9 +19,8 @@ This repository demonstrates the producer-consumer synchronization problem using
 .
 ├── producer.cpp       # Produces items into the shared buffer
 ├── consumer.cpp       # Consumes items from the shared buffer
-├── Game.c             # Additional coursework source
-├── Makefile           # Builds producer and consumer binaries
-└── lab5.pdf           # Assignment brief
+├── Game.c             # Supporting C program
+└── Makefile           # Builds producer and consumer binaries
 ```
 
 ## Build
@@ -32,7 +31,7 @@ Run the following on a Linux system with `g++` and `make` installed:
 make
 ```
 
-This produces `producer` and `consumer` executables. Review the assignment PDF and the source comments for the expected launch arguments and exercise flow.
+This produces `producer` and `consumer` executables. The source comments describe the expected launch arguments and program flow.
 
 ## Concepts Demonstrated
 
